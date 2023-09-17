@@ -6,7 +6,7 @@
     const lightTheme = 'light';
     const darkTheme = 'dark_dimmed';
 
-    let initTheme = darkTheme;
+    let initTheme = lightTheme;
     const html = document.documentElement;
 
     if (
@@ -15,7 +15,7 @@
       (!html.hasAttribute('data-mode') &&
         window.matchMedia('(prefers-color-scheme: dark)').matches)
     ) {
-      initTheme = lightTheme;
+      initTheme = darkTheme;
     }
 
     let giscusAttributes = {
