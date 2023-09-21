@@ -29,15 +29,18 @@ description: >- # used by seo meta and the atom feed
 url: "https://yn3-3xh.github.io"
 
 github:
-  username: Yn3 # change to your github username
+  username: Yn3-3xh # change to your github username
 
 # twitter:
 #   username: twitter_username # change to your twitter username
 
+instagram:
+  username: yn3__3x.h
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: YUNWONJUN
+  name: Yn3
   email: tong13579@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
