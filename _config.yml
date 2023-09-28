@@ -80,7 +80,7 @@ theme_mode: # [dark|light]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "/assets/img/profile/profile.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
