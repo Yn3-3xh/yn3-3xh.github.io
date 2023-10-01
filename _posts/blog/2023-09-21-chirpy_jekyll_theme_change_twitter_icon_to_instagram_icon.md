@@ -12,7 +12,6 @@ tags: [blog, jekyll, chirpy, icon, twitter, instagram]
 **트위터 아이콘 대신 인스타그램 아이콘으로 바꿔보자!**
 
 ### Modify Files
----
 1. `_config.yml` 수정<br>
   - <mark style='background-color: #ffdce0'>트위터 관련 항목인 twitter</mark>와 <mark style='background-color: #ffdce0'>social에서 links에 twiter 링크를 주석처리</mark>한다.
   - <mark style='background-color: #ffdce0'>인스타그램 관련 항목인 instagram</mark>과 <mark style='background-color: #ffdce0'>social에서 links에 자신의 instagrame 주소를 추가</mark>한다.
@@ -77,9 +76,9 @@ tags: [blog, jekyll, chirpy, icon, twitter, instagram]
     ```
 
 ## Addition
-  ---
-  추가적으로 다 하고 보니까 footer에 있는 테마 설명이 없으면 더 깔끔해질거 같다.
-  **테마 설명을 지워보자!**
+---
+추가적으로 다 하고 보니까 footer에 있는 테마 설명이 없으면 더 깔끔해질거 같다.
+**테마 설명을 지워보자!**
 
 ### Modify File
 1. _includes > `footer.html` 수정<br>
