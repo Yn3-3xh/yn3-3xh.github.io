@@ -37,3 +37,4 @@ sidebar에 기본으로 chirpy 테마 사진이 등록되어 있는데 다른 �
        background-position: center;
    }
    ```
+   
