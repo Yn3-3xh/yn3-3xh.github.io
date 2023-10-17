@@ -1,5 +1,5 @@
 ---
-title: "[Blog] Chirpy Jekyll Theme - Change Twitter Icon To Instagram Icon"
+title: "[Blog] Chirpy jekyll theme - Change twitter icon to instagram icon"
 date: 2023-09-21 19:00:00 +0900
 categories: [Blog]
 tags: [blog, jekyll, chirpy, icon, twitter, instagram]
@@ -7,14 +7,16 @@ tags: [blog, jekyll, chirpy, icon, twitter, instagram]
 
 ## Intro
 ---
-블로그에 Chirpy Jekyll Theme를 입혔더니 아래 사용하지 않는 트위터 아이콘을 발견했다.<br>
-트위터 아이콘을 지워보니 5칸 짜리가 4칸이 되니까 뭔가 이상해 보이니까<br>
+블로그에 Chirpy Jekyll Theme를 입혔더니 아래 사용하지 않는 트위터 아이콘을 발견했다.
+
+트위터 아이콘을 지워보니 5칸 짜리가 4칸이 되니까 뭔가 이상해 보이니까
+
 **트위터 아이콘 대신 인스타그램 아이콘으로 바꿔보자!**
 
 ### Modify files to change icon
-1. `_config.yml` 수정<br>
-  - <mark style='background-color: #ffdce0'>트위터 관련 항목인 twitter</mark>와 <mark style='background-color: #ffdce0'>social에서 links에 twiter 링크를 주석처리</mark>한다.
-  - <mark style='background-color: #ffdce0'>인스타그램 관련 항목인 instagram</mark>과 <mark style='background-color: #ffdce0'>social에서 links에 자신의 instagrame 주소를 추가</mark>한다.
+1. `_config.yml` 수정
+  - <span style="color: violet;">트위터 관련 항목인 twitter</span>와 <span style="color: violet;">social에서 links에 twiter 링크를 주석처리</span>한다.
+  - <span style="color: violet;">인스타그램 관련 항목인 instagram</span>과 <span style="color: violet;">social에서 links에 자신의 instagrame 주소를 추가</span>한다.
   
 	``` yml
 	# twitter:
@@ -38,9 +40,9 @@ tags: [blog, jekyll, chirpy, icon, twitter, instagram]
       # - https://www.linkedin.com/in/username
 	```
   
-2. _data > `contact.yml` 수정<br>
-  - <mark style='background-color: #ffdce0'>트위터 관련 항목을 주석처리</mark>한다.
-  - <mark style='background-color: #ffdce0'>인스타그램 관련 항목을 추가</mark>한다.
+2. _data > `contact.yml` 수정
+  - <span style="color: violet;">트위터 관련 항목을 주석처리</span>한다.
+  - <span style="color: violet;">인스타그램 관련 항목을 추가</span>한다.
 
     ``` yml
       # - type: twitter
@@ -50,8 +52,8 @@ tags: [blog, jekyll, chirpy, icon, twitter, instagram]
         icon: "fab fa-instagram"
     ```
 
-3. _includes > `sidebar.html` 수정<br>
-  - <mark style='background-color: #ffdce0'>62번째 줄</mark> 이후에 있는 부분에서
+3. _includes > `sidebar.html` 수정
+  - <span style="color: violet;">62번째 줄</span> 이후에 있는 부분에서
 	
     ``` html
       {% raw %}{% case entry.type %}
@@ -63,7 +65,7 @@ tags: [blog, jekyll, chirpy, icon, twitter, instagram]
       {% endcase %}{% endraw %}
     ```
     
-    - <mark style='background-color: #ffdce0'>twitter를 instagram으로 수정</mark>한다.
+    - <span style="color: violet;">twitter를 instagram으로 수정</span>한다.
 
     ``` html
       {% raw %}{% case entry.type %}
@@ -78,11 +80,12 @@ tags: [blog, jekyll, chirpy, icon, twitter, instagram]
 ## Addition
 ---
 추가적으로 다 하고 보니까 footer에 있는 테마 설명이 없으면 더 깔끔해질거 같다.
+
 **테마 설명을 지워보자!**
 
 ### Modify file to theme description
-1. _includes > `footer.html` 수정<br>
-  - <mark style='background-color: #ffdce0'>테마 설명 관련 코드를 주석처리</mark>한다.
+1. _includes > `footer.html` 수정
+  - <span style="color: violet;">테마 설명 관련 코드를 주석처리</span>한다.
 
     ``` html
       <!-- The Footer -->
