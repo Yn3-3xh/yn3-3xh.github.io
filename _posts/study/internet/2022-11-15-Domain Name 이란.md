@@ -42,7 +42,7 @@ tags : [study, Internet, Domain Name]
 
 ---
 
-![Domain Name 구조](https://drive.google.com/uc?id=1IFFDc8yXeqdtl6FTbTO0FqzumPzTZI6Y){: width="40%" height="40%"}
+![Domain Name 구조](https://drive.google.com/uc?id=1IFFDc8yXeqdtl6FTbTO0FqzumPzTZI6Y){: width="70%" height="70%"}
 
 점으로 구분되고 오른쪽에서 왼쪽으로 읽는 여러 부분으로 구성된 간단한 구조로, 각 부분은 전체 Domain Name에 대한 특정 정보를 제공한다.
 
