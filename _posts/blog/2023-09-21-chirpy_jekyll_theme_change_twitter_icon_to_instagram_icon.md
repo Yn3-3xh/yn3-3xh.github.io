@@ -1,5 +1,5 @@
 ---
-title: "[Blog] Chirpy jekyll theme - Change twitter icon to instagram icon"
+title: "[Blog]<br>Chirpy jekyll theme - Change twitter icon to instagram icon"
 date: 2023-09-21 19:00:00 +0900
 categories: [Blog]
 tags: [blog, jekyll, chirpy, icon, twitter, instagram]

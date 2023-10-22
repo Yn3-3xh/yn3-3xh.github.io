@@ -1,5 +1,5 @@
 ---
-title: "[Blog] Chirpy jekyll theme - Change sidebar image"
+title: "[Blog]<br>Chirpy jekyll theme - Change sidebar image"
 date: 2023-10-02 01:00:00 +0900
 categories: [Blog]
 tags: [blog, jekyll, chirpy, image, profile, background]
