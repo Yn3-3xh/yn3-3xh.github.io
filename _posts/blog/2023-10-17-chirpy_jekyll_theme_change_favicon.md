@@ -1,5 +1,5 @@
 ---
-title: "[Blog]<br>Chirpy jekyll theme - Change favicon"
+title: "[Blog] Chirpy jekyll theme - Change favicon"
 date: 2023-10-17 00:00:00 +0900
 categories: [Blog]
 tags: [blog, jekyll, chirpy, favicon]

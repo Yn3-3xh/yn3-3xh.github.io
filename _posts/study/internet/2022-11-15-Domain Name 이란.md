@@ -1,5 +1,5 @@
 ---
-title: "[Study - Internet]<br>Domain Name 이란?"
+title: "[Study - Internet] Domain Name 이란?"
 date : 2022-11-15 19:00:00 +09:00
 categories : [Study - Internet]
 tags : [study, Internet, Domain Name]
