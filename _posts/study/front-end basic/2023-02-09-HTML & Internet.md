@@ -36,7 +36,7 @@ tags : [study, TML, Server&Client, Web Hosting]
 
 인터넷이 동작하기 위해서는 서로 정보를 주고 받을 수 있는 최소 2대의 컴퓨터가 있어야 한다.
 
-![Server&Client1](https://drive.google.com/uc?id=15yKLUesMMeGMYevBqiihLrsTShK7Tyn9){: width="70%" height="70%"}
+![Server&Client1](https://drive.google.com/thumbnail?id=15yKLUesMMeGMYevBqiihLrsTShK7Tyn9&sz=w500)
 
 그리고 각각의 프로그램을 개발하여 하나는 웹 브라우저, 다른 하나는 웹 서버라는 이름을 붙인다.
 
@@ -44,7 +44,7 @@ tags : [study, TML, Server&Client, Web Hosting]
 
 이후에 웹 브라우저가 설치된 컴퓨터의 주소창에 http://info.cern.ch/index.html 을 친다.
 
-![Server&Client2](https://drive.google.com/uc?id=1nIZOjSArKfBSysDqrioCoDkNLlQQ1pmk){: width="70%" height="70%"}
+![Server&Client2](https://drive.google.com/thumbnail?id=1nIZOjSArKfBSysDqrioCoDkNLlQQ1pmk&sz=w500)
 
 웹 브라우저가 설치된 컴퓨터는 인터넷을 통해서 전기적인 신호를 info.cern.ch 라는 주소의 컴퓨터에게 보낸다.
 
@@ -64,7 +64,7 @@ info.cern.ch에 설치된 웹 서버라는 프로그램이 어떤 디렉토리�
 
 ## Web Hosting
 
-![Web Hosting1](https://drive.google.com/uc?id=16PFyaxy67eW7czKAqiRV2J1Iv0YY7DsN){: width="70%" height="70%"}
+![Web Hosting1](https://drive.google.com/thumbnail?id=16PFyaxy67eW7czKAqiRV2J1Iv0YY7DsN&sz=w500)
 
 ‘my’ 컴퓨터는 현재로서 컨텐츠를 서비스 할 수 없다.
 
@@ -72,7 +72,7 @@ info.cern.ch에 설치된 웹 서버라는 프로그램이 어떤 디렉토리�
 
 이제 웹 서버의 주소를 ‘visitor’에게 알려주면 ‘my’ 컴퓨터가 아닌 ‘github’의 컴퓨터에 설치된 웹 서버에 접속하게 된다.
 
-![Web Hosting2](https://drive.google.com/uc?id=1OeQRzW5HSnnrDiFoV8pKeYTCwUj7w0_C){: width="70%" height="70%"}
+![Web Hosting2](https://drive.google.com/thumbnail?id=1OeQRzW5HSnnrDiFoV8pKeYTCwUj7w0_C&sz=w500)
 
 웹 서버를 직접 운영하는 것에 비해서 웹 호스팅을 이용하면 쉽다.
 
