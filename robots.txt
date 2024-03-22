@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yn3-3xh.github.io/sitemap.xml
