@@ -199,6 +199,6 @@ jekyll-archives:
     category: /categories/:name/
 
 # permit http
-Htmlproofer:
+htmlproofer:
   url_ignore:
     - /http:\/\/wiki.hash.kr\/index.php\/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/
