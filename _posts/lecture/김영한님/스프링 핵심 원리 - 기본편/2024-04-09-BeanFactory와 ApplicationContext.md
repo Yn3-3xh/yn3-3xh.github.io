@@ -1,8 +1,8 @@
 ---
-title: "[Lecture - 김영한님] BeanFactory와 ApplicationContext"
+title: "[Lecture - 김영한님(스프링 핵심 원리 - 기본편)] BeanFactory와 ApplicationContext"
 date : 2024-04-09 12:10:00 +09:00
-categories : [Lecture - 김영한님]
-tags : [lecture, inflearn, 김영한님, spring, spring boot]
+categories : [Lecture - 김영한님(스프링 핵심 원리 - 기본편)]
+tags : [lecture, inflearn, 김영한님, 스프링 핵심 원리 - 기본편, spring, spring boot]
 ---
 
 inflearn에서 김영한님 강의를 들으면서 내용을 정리해보자.   

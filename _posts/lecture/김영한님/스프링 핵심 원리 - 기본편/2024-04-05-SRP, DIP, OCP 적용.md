@@ -1,8 +1,8 @@
 ---
-title: "[Lecture - 김영한님] SRP, DIP, OCP 적용"
+title: "[Lecture - 김영한님(스프링 핵심 원리 - 기본편)] SRP, DIP, OCP 적용"
 date : 2024-04-05 09:38:00 +09:00
-categories : [Lecture - 김영한님]
-tags : [lecture, inflearn, 김영한님, spring, spring boot]
+categories : [Lecture - 김영한님(스프링 핵심 원리 - 기본편)]
+tags : [lecture, inflearn, 김영한님, 스프링 핵심 원리 - 기본편, spring, spring boot]
 ---
 
 inflearn에서 김영한님 강의를 들으면서 내용을 정리해보자.   
