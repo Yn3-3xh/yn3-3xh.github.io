@@ -2,7 +2,7 @@
 title: "[Lecture - 김영한님(스프링 핵심 원리 - 기본편)] @ComponentScan Filter"
 date : 2024-04-16 00:54:00 +09:00
 categories : [Lecture - 김영한님(스프링 핵심 원리 - 기본편)]
-tags : [lecture, inflearn, 김영한님, 스프링 핵심 원리 - 기본편, spring, spring boot, Component, ComponentScan, Autowired]
+tags : [lecture, inflearn, 김영한님, 스프링 핵심 원리 - 기본편, spring, spring boot, ComponentScan, Filter]
 ---
 
 inflearn에서 김영한님 강의를 들으면서 내용을 정리해보자.   
