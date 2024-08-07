@@ -92,7 +92,7 @@ LinkedList는 단일, 다중 등 여러가지가 존재한다.
 
 ---
 
-# Refernces
+# References
 
 [gyoggle - Array vs ArrayList vs LinkedList](https://gyoogle.dev/blog/computer-science/data-structure/Array%20vs%20ArrayList%20vs%20LinkedList.html){:target="_blank"}
 
