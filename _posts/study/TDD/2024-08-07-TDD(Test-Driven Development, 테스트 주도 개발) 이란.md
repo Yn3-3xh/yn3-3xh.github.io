@@ -16,7 +16,7 @@ TDD(Test-Driven Development, 테스트 주도 개발)는
 
 즉, 짧은 개발 주기의 반복에 의존하는 개발 프로세스이며,   
 애자일 방법론 중 하나인 XP의 Test-First 개념에 기반은 둔 단순한 설계를 중요시한다.
-> XP (eXtream Programming)   
+> XP (eXtreme Programming)   
 > 미래에 대한 예측을 최대한 하지 않고, 지속적으로 프로토타입을 완성하는 애자일 방법론 중 하나로,   
 > 추가 요구사항이 생겨도 실시간으로 반영할 수 있다.
 
