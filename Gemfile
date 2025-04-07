@@ -2,6 +2,9 @@
 
 source "https://rubygems.org"
 
+gem "github-pages", "=228"
+gem "jekyll", "=3.9.3"
+
 gemspec
 
 group :test do
@@ -26,6 +29,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
-
-gem "github-pages", "=228"
-gem "jekyll", "=3.9.3"
