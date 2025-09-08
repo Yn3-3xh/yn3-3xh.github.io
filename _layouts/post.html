@@ -135,23 +135,26 @@ tail_includes:
 <!-- div.post-tail-wrapper -->
 
 <script>
+    function htmlDecode(input){
+        const e = document.createElement('textarea');
+        e.innerHTML = input;
+        return e.value;
+    }
+
     document.addEventListener("DOMContentLoaded", function() {
-        // 모든 코드 블록 선택
         document.querySelectorAll("pre code.language-mermaid").forEach(function(codeBlock) {
-            // 새 div 생성
             const mermaidDiv = document.createElement("div");
             mermaidDiv.className = "mermaid";
-            mermaidDiv.textContent = codeBlock.textContent; // 코드 안 내용 복사
+            mermaidDiv.textContent = htmlDecode(codeBlock.innerHTML);
 
-            // pre 요소를 div로 교체
             const pre = codeBlock.parentNode;
             pre.parentNode.replaceChild(mermaidDiv, pre);
         });
 
-        // Mermaid 초기화
         if (window.mermaid) {
-            mermaid.initialize({ startOnLoad: true, theme: "forest" });
+            mermaid.initialize({ startOnLoad: false, theme: "forest" });
             window.mermaid.init(undefined, document.querySelectorAll(".mermaid"));
         }
     });
 </script>
+
