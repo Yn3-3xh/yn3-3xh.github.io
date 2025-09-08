@@ -133,3 +133,25 @@ tail_includes:
   <!-- .post-tail-bottom -->
 </div>
 <!-- div.post-tail-wrapper -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // 모든 코드 블록 선택
+        document.querySelectorAll("pre code.language-mermaid").forEach(function(codeBlock) {
+            // 새 div 생성
+            const mermaidDiv = document.createElement("div");
+            mermaidDiv.className = "mermaid";
+            mermaidDiv.textContent = codeBlock.textContent; // 코드 안 내용 복사
+
+            // pre 요소를 div로 교체
+            const pre = codeBlock.parentNode;
+            pre.parentNode.replaceChild(mermaidDiv, pre);
+        });
+
+        // Mermaid 초기화
+        if (window.mermaid) {
+            mermaid.initialize({ startOnLoad: true, theme: "forest" });
+            window.mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+        }
+    });
+</script>
